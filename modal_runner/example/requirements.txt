@@ -1,0 +1,2 @@
+# Put workload dependencies here, for example: torch==2.8.0
+# The runner itself uses Modal locally; this file is installed in the remote image.

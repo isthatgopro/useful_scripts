@@ -1,0 +1,26 @@
+{
+  "app_name": "my-python-jobs",
+  "model_name": "example",
+  "project_dir": ".",
+  "command": ["python", "-u", "job.py"],
+  "gpu": "L4",
+  "cpu": 2,
+  "memory_mib": 8192,
+  "timeout_seconds": 3600,
+  "sample_seconds": 5,
+  "result_dir": "../runs",
+  "image": {
+    "python": "3.11",
+    "requirements": "requirements.txt",
+    "apt_packages": [],
+    "pip_packages": []
+  },
+  "secrets": [],
+  "volumes": {},
+  "env": {},
+  "ignore": [],
+  "billing_snapshot": true,
+  "billing": {
+    "gpu_usd_per_hour": null
+  }
+}
